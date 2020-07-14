@@ -1,0 +1,986 @@
+/* ex-small device*/
+@media (min-width:320px) and (max-width:575px) {
+
+    /* navbar start*/
+
+    nav {
+        background: #e23e38;
+        top: 0;
+    }
+
+    nav .navbar-brand {
+        margin: -8px 0;
+        margin-left: -15px;
+    }
+
+    nav ul {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    nav ul li {
+        padding-top: 10px 0;
+    }
+
+    /* navbar end*/
+
+    /*  banner part start  */
+
+    #banner-part .overlay {
+        padding-top: 180px;
+    }
+
+    #banner-part .overlay p {
+        width: 300px;
+        padding: 40px 0;
+    }
+
+    #banner-part .banner1 {
+        height: 570px;
+    }
+
+    #banner-part .banner2 {
+        height: 570px;
+    }
+
+    #banner-part .banner3 {
+        height: 570px;
+    }
+
+    #banner-part ul {
+        bottom: 10px;
+    }
+
+    /*  banner part end  */
+
+    /*  about part star*/
+    #about-part {
+        margin: 80px 0;
+    }
+
+    #about-part .video {
+        margin-top: 475px;
+    }
+
+    #about-part .text p {
+        width: auto;
+    }
+
+    #about-part .text {
+        position: absolute;
+        top: -794px;
+        left: 0;
+
+        padding: 0 15px;
+    }
+
+    /*  about part end*/
+
+    /* gallery part start*/
+    #gallery-part titel {
+        margin-bottom: 30px;
+    }
+
+    #gallery-part .photos {
+        height: 620px;
+    }
+
+    #gallery-part .overlay .top {
+        height: 270px;
+    }
+
+    #gallery-part .overlay .bottom1 {
+        height: 270px;
+    }
+
+    #gallery-part .overlay .top2 {
+        height: 270px;
+    }
+
+    #gallery-part .overlay .bottom2 {
+        height: 270px;
+    }
+
+    #gallery-part .overlay .top3 {
+        height: 270px;
+    }
+
+    #gallery-part .overlay .bottom3 {
+        height: 270px;
+    }
+
+    /* gallery part end*/
+
+    /* team part start*/
+    #team-part .slick-list {
+        padding: 0;
+    }
+
+    #team-part .item {
+        border: 1px solid #dddddd;
+    }
+
+    #team-part .item .img img {
+        margin: 10px auto;
+    }
+
+    #team-part .item .details {
+        border: none;
+        position: initial;
+        padding-top: 0;
+        bottom: 0;
+        opacity: 1;
+    }
+
+    #team-part .item:hover .members {
+        margin-top: 0;
+    }
+
+    #team-part .item:hover .details {
+        bottom: 0;
+    }
+
+    #team-part {
+        position: relative;
+    }
+
+    #team-part .prev {
+        position: absolute;
+        top: -40px;
+        left: 15px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #000;
+        line-height: 26px;
+        color: #000;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        border-radius: 5px;
+        transition: .5s
+    }
+
+    #team-part .next {
+        position: absolute;
+        top: -40px;
+        right: 15px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #000;
+        line-height: 26px;
+        color: #000;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        border-radius: 5px;
+        transition: .5s
+    }
+
+    #team-part .prev:hover {
+        background: #e23e38;
+        border: 1px solid #e23e38;
+        color: #fff;
+    }
+
+    #team-part .next:hover {
+        background: #e23e38;
+        border: 1px solid #e23e38;
+        color: #fff;
+    }
+
+    /* team part end*/
+
+
+    /*  testi part start*/
+    #testi-part .slider {
+        height: 320px;
+    }
+
+    #testi-part .overlay .items .item p {
+        width: auto;
+    }
+
+    /*  testi part end*/
+
+    /* membership part start*/
+    #membership-part .titel {
+        margin-bottom: 30px;
+    }
+
+    #membership-part .items {
+        margin: 15px 0;
+    }
+
+    /* membership part end*/
+
+    /* counter part start*/
+    #counter-part {
+        height: 230px;
+    }
+
+    #counter-part .overlay .text {
+        margin-bottom: 20px;
+    }
+
+    #counter-part .overlay .col-xs-6 {
+        width: 50%;
+    }
+
+    /* counter part end*/
+
+    /*    class part start */
+    #class-part .colorful-tab-content ul li {
+        width: 145px;
+        height: 150px;
+        padding-top: 20px;
+        font-size: 12px;
+    }
+
+
+    #brand-part {
+        margin-top: 20px;
+    }
+
+    /*    class part end */
+
+    /* footer part start*/
+    #footer-part {
+        height: 1300px;
+        margin-top: 30px;
+    }
+
+    #footer-part .overlay .item1 h6 {
+        margin-top: 30px;
+    }
+
+    #footer-part .overlay .item2 h6 {
+        margin-top: 30px;
+    }
+
+    #footer-part .overlay .item3 h6 {
+        margin-top: 30px;
+    }
+
+    #footer-part .overlay .item2 .photos {
+        text-align: center;
+    }
+
+    #footer-part .overlay .item2 img {
+        margin: 4px;
+    }
+
+    /* footer part end*/
+}
+
+
+/* small device*/
+
+
+@media (min-width:576px) and (max-width:767px) {
+
+    /* navbar start*/
+
+    nav {
+        background: #e23e38;
+        top: 0;
+    }
+
+    nav .navbar-brand {
+        margin: -8px 0;
+        margin-left: -15px;
+    }
+
+    nav ul {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    nav ul li {
+        padding-top: 10px 0;
+    }
+
+    /* navbar end*/
+
+    /*  banner part start  */
+
+    #banner-part .overlay {
+        padding-top: 180px;
+    }
+
+    #banner-part .overlay p {
+        width: auto;
+        padding: 40px 0;
+    }
+
+    #banner-part .banner1 {
+        height: 570px;
+    }
+
+    #banner-part .banner2 {
+        height: 570px;
+    }
+
+    #banner-part .banner3 {
+        height: 570px;
+    }
+
+    #banner-part ul {
+        bottom: 10px;
+    }
+
+    /*  banner part end  */
+
+    /*  about part star*/
+    #about-part {
+        margin: 80px 0;
+    }
+
+    #about-part .video {
+        margin-top: 340px;
+    }
+
+
+    #about-part .text {
+        position: absolute;
+        top: -675px;
+        left: -9px;
+        padding: 0 15px;
+    }
+
+    /*  about part end*/
+
+    /* gallery part start*/
+    #gallery-part titel {
+        margin-bottom: 30px;
+    }
+
+    #gallery-part .photos {
+        height: 620px;
+    }
+
+    #gallery-part .overlay .top {
+        height: 270px;
+    }
+
+    #gallery-part .overlay .bottom1 {
+        height: 270px;
+    }
+
+    #gallery-part .overlay .top2 {
+        height: 270px;
+    }
+
+    #gallery-part .overlay .bottom2 {
+        height: 270px;
+    }
+
+    #gallery-part .overlay .top3 {
+        height: 270px;
+    }
+
+    #gallery-part .overlay .bottom3 {
+        height: 270px;
+    }
+
+    /* gallery part end*/
+
+    /* team part start*/
+    #team-part .slick-list {
+        padding: 0;
+    }
+
+    #team-part .item {
+        border: 1px solid #dddddd;
+    }
+
+    #team-part .item .img img {
+        margin: 10px auto;
+    }
+
+    #team-part .item .details {
+        border: none;
+        position: initial;
+        padding-top: 0;
+        bottom: 0;
+        opacity: 1;
+    }
+
+    #team-part .item:hover .members {
+        margin-top: 0;
+    }
+
+    #team-part .item:hover .details {
+        bottom: 0;
+    }
+
+    #team-part {
+        position: relative;
+    }
+
+    #team-part .prev {
+        position: absolute;
+        top: -40px;
+        left: 15px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #000;
+        line-height: 26px;
+        color: #000;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        border-radius: 5px;
+        transition: .5s
+    }
+
+    #team-part .next {
+        position: absolute;
+        top: -40px;
+        right: 15px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #000;
+        line-height: 26px;
+        color: #000;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        border-radius: 5px;
+        transition: .5s
+    }
+
+    #team-part .prev:hover {
+        background: #e23e38;
+        border: 1px solid #e23e38;
+        color: #fff;
+    }
+
+    #team-part .next:hover {
+        background: #e23e38;
+        border: 1px solid #e23e38;
+        color: #fff;
+    }
+
+    /* team part end*/
+
+
+    /*  testi part start*/
+    #testi-part .slider {
+        height: 270px;
+    }
+
+    #testi-part .overlay .items .item p {
+        width: auto;
+    }
+
+    /*  testi part end*/
+
+    /* membership part start*/
+    #membership-part .titel {
+        margin-bottom: 30px;
+    }
+
+    #membership-part .col-sm-4 {
+        padding: 0 5px;
+    }
+
+    #membership-part .items {
+        margin: 15px 0;
+    }
+
+    #membership-part .items .cat {
+        padding: 10px 0;
+        text-transform: none;
+    }
+
+    #membership-part .items .price .overlay p {
+        font-size: 14px;
+    }
+
+    #membership-part .items .text ul li {
+        margin: 15px 0;
+        font-size: 12px;
+    }
+
+    /* membership part end*/
+
+    /* counter part start*/
+    #counter-part {
+        height: 150px;
+    }
+
+    #counter-part .overlay .text {
+        margin-bottom: 20px;
+    }
+
+    #counter-part .overlay .col-xs-6 {
+        width: 50%;
+    }
+
+    /* counter part end*/
+
+    /*    class part start */
+    #class-part .colorful-tab-content ul li {
+
+        width: 102px;
+        height: 190px;
+        padding-top: 30px;
+        font-size: 14px;
+    }
+
+    /*    class part end */
+
+    /*  brand part start*/
+
+    #brand-part {
+        margin-top: 20px;
+    }
+
+    #brand-part .items .item {
+        height: 60px;
+    }
+
+    #brand-part .items .item a img {
+        transform: scale(.7)
+    }
+
+    #brand-part .items .prev {
+        left: -15px;
+    }
+
+    #brand-part .items .next {
+        right: -15px;
+    }
+
+    /*  brand part end*/
+
+
+
+    /* footer part start*/
+    #footer-part {
+        height: 860px;
+        ;
+        margin-top: 30px;
+    }
+
+    #footer-part .overlay .item1 h6 {
+        margin-top: 30px;
+    }
+
+    #footer-part .overlay .item2 h6 {
+        margin-top: 30px;
+    }
+
+    #footer-part .overlay .item3 h6 {
+        margin-top: 30px;
+    }
+
+    #footer-part .overlay .item2 .photos {
+        text-align: left;
+    }
+
+    #footer-part .overlay .item2 img {
+        margin: 4px;
+    }
+
+    #footer-part .overlay .item3 .one {
+        margin-top: 50px;
+    }
+
+    /* footer part end*/
+}
+
+
+/* medium device*/
+
+@media (min-width:768px) and (max-width:991px) {
+
+    /* navbar start*/
+
+    nav {
+        background: #e23e38;
+        top: 0;
+    }
+
+    nav .navbar-brand {
+        margin: -8px 0;
+        margin-left: -15px;
+    }
+
+    nav ul {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    nav ul li {
+        padding-top: 10px 0;
+    }
+
+    /* navbar end*/
+
+    /*  banner part start  */
+
+    #banner-part .overlay {
+        padding-top: 180px;
+    }
+
+    #banner-part .overlay p {
+        padding: 40px 0;
+    }
+
+    #banner-part .banner1 {
+        height: 570px;
+    }
+
+    #banner-part .banner2 {
+        height: 570px;
+    }
+
+    #banner-part .banner3 {
+        height: 570px;
+    }
+
+    #banner-part ul {
+        bottom: 10px;
+    }
+
+    /*  banner part end  */
+
+    /*  about part star*/
+    #about-part {
+        margin: 80px 0;
+    }
+
+    #about-part .text .titel {
+        margin-bottom: 10px;
+    }
+
+    #about-part .text p {
+        font-size: 12px;
+        line-height: 20px;
+        width: auto;
+        margin-bottom: 15px;
+    }
+
+
+    /*  about part end*/
+
+    /* gallery part start*/
+    #gallery-part titel {
+        margin-bottom: 30px;
+    }
+
+    #gallery-part .photos {
+        height: 620px;
+    }
+
+    #gallery-part .overlay .top {
+        height: 270px;
+    }
+
+    #gallery-part .overlay .bottom1 {
+        height: 270px;
+    }
+
+    #gallery-part .overlay .top2 {
+        height: 270px;
+    }
+
+    #gallery-part .overlay .bottom2 {
+        height: 270px;
+    }
+
+    #gallery-part .overlay .top3 {
+        height: 270px;
+    }
+
+    #gallery-part .overlay .bottom3 {
+        height: 270px;
+    }
+
+    /* gallery part end*/
+
+    /* team part start*/
+    #team-part .item .img img {
+        transform: scale(.9)
+    }
+
+    #team-part .item .details p {
+        font-size: 12px;
+        line-height: 15px;
+        width: auto;
+    }
+
+    #team-part {
+        position: relative;
+    }
+
+    #team-part .prev {
+        position: absolute;
+        top: -40px;
+        left: 15px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #000;
+        line-height: 26px;
+        color: #000;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        border-radius: 5px;
+        transition: .5s
+    }
+
+    #team-part .next {
+        position: absolute;
+        top: -40px;
+        right: 15px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #000;
+        line-height: 26px;
+        color: #000;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        border-radius: 5px;
+        transition: .5s
+    }
+
+    #team-part .prev:hover {
+        background: #e23e38;
+        border: 1px solid #e23e38;
+        color: #fff;
+    }
+
+    #team-part .next:hover {
+        background: #e23e38;
+        border: 1px solid #e23e38;
+        color: #fff;
+    }
+
+    /* team part end*/
+
+
+    /*  testi part start*/
+    #testi-part .slider {
+        height: 305px;
+    }
+
+    #testi-part .overlay .items .item p {
+        width: auto;
+    }
+
+    /*  testi part end*/
+
+    /* membership part start*/
+    #membership-part .titel {
+        margin-bottom: 30px;
+    }
+
+    #membership-part .col-sm-4 {
+        padding: 0 5px;
+    }
+
+    #membership-part .items {
+        margin: 15px 0;
+    }
+
+    #membership-part .items .cat {
+        padding: 10px 0;
+        text-transform: none;
+    }
+
+    #membership-part .items .price .overlay p {
+        font-size: 14px;
+    }
+
+    #membership-part .items .text ul li {
+        margin: 15px 0;
+        font-size: 12px;
+    }
+
+    /* membership part end*/
+
+    /* counter part start*/
+    #counter-part {
+        height: 150px;
+    }
+
+    #counter-part .overlay .text {
+        margin-bottom: 20px;
+    }
+
+    #counter-part .overlay .col-xs-6 {
+        width: 50%;
+    }
+
+    /* counter part end*/
+
+    /*    class part start */
+    #class-part .colorful-tab-content ul li {
+        width: 138px;
+        height: 190px;
+        padding-top: 30px;
+    }
+
+    /*    class part end */
+
+    /*  brand part start*/
+
+    #brand-part {
+        margin-top: 20px;
+    }
+
+    #brand-part .items .item {
+        height: 60px;
+    }
+
+    #brand-part .items .item a img {
+        transform: scale(.7)
+    }
+
+    #brand-part .items .prev {
+        left: -15px;
+    }
+
+    #brand-part .items .next {
+        right: -15px;
+    }
+
+    /*  brand part end*/
+
+
+
+    /* footer part start*/
+    #footer-part {
+        height: 740px;
+        ;
+        margin-top: 30px;
+    }
+
+    #footer-part .overlay .item1 ul li p {
+        width: 276px;
+    }
+
+    #footer-part .overlay .item2 h6 {
+        margin-top: 30px;
+    }
+
+    #footer-part .overlay .item3 h6 {
+        margin-top: 30px;
+    }
+
+    #footer-part .overlay .item2 .photos {
+        text-align: left;
+    }
+
+    #footer-part .overlay .item2 img {
+        margin: 4px;
+    }
+
+    #footer-part .overlay .item3 .one {
+        margin-top: 30px;
+    }
+
+    /* footer part end*/
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+
+    /*  about part star*/
+    #about-part {
+        margin-bottom: 50px;
+    }
+
+    #about-part .text .titel {
+        margin-bottom: 10px;
+    }
+
+    #about-part .text p {
+        font-size: 14px;
+        line-height: 22px;
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+
+    /*  about part end*/
+
+    /* team part start*/
+    #team-part .item .img img {
+        transform: scale(.9)
+    }
+
+    #team-part .item .details p {
+        font-size: 12px;
+        line-height: 15px;
+        width: auto;
+    }
+
+    /*    team part end*/
+
+/*    testi part start*/
+    #testi-part .slider {
+        height: 295px;
+    }
+    #testi-part .overlay .items .item p{
+        width: 420px;
+    }
+/*    testi part end*/
+    
+    
+/*    class part start*/
+    #class-part .colorful-tab-content ul li{
+        width: 186px;
+    }
+/*    class part end*/
+    
+        /*  brand part start*/
+
+    #brand-part {
+        margin-top: 50px;
+    }
+
+    #brand-part .items .item {
+        height: 60px;
+    }
+
+    #brand-part .items .item a img {
+        transform: scale(.7)
+    }
+
+    #brand-part .items .prev {
+        left: -15px;
+    }
+
+    #brand-part .items .next {
+        right: -15px;
+    }
+
+    /*  brand part end*/
+    
+/*    footer part start*/
+    #footer-part{
+        height: 520px;
+        margin-top: 80px;
+    }
+    #footer-part .overlay .item ul li{
+        font-size: 12px;
+    }
+    #footer-part .overlay .item1 ul li p{
+        width: 170px;
+    }
+    
+    #footer-part .overlay .item3 ul li p{
+        font-size: 12px;
+        width: 200px;
+    }
+    #footer-part .overlay .item3 a{
+        margin-right: 5px;
+    }
+        
+/*    footer part end*/
+    
+    
+}
