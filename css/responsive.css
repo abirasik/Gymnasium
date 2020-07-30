@@ -21,6 +21,16 @@
     nav ul li {
         padding-top: 10px 0;
     }
+    .navbar-toggler{
+        border: 1px solid #fff;
+    }
+    .navbar-toggler{
+        border: 1px solid #fff;
+    }
+    .sticky {
+    background: rgba(226, 62, 56, .7);
+    padding: 8px 0;
+    }
 
     /* navbar end*/
 
@@ -298,7 +308,14 @@
     nav ul li {
         padding-top: 10px 0;
     }
-
+    .navbar-toggler{
+        border: 1px solid #fff;
+    }
+    
+    .sticky {
+    background: rgba(226, 62, 56, .7);
+    padding: 8px 0;
+    }
     /* navbar end*/
 
     /*  banner part start  */
@@ -615,7 +632,13 @@
     nav ul li {
         padding-top: 10px 0;
     }
-
+    .navbar-toggler{
+        border: 1px solid #fff;
+    }
+     .sticky {
+    background: rgba(226, 62, 56, .7);
+    padding: 8px 0;
+    }
     /* navbar end*/
 
     /*  banner part start  */

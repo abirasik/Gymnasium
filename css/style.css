@@ -25,7 +25,6 @@ p {
     padding: 0;
 }
 html,body{
-    scroll-behavior: smooth;
     overflow-x: hidden;
 }
 .titel h3 {
@@ -97,10 +96,11 @@ nav ul li a:hover::after {
 }
 
 .sticky {
-    position: fixed !importent;
-    top: 0 !importent;
-    background: rgba(53, 53, 53, 0.65);
+    position: fixed !important;
+    top: 0 !important;
+    background: rgba(53, 53, 53, 0.8);
     width: 100%;
+    padding: 17px 0;
 }
 /*=================================
             manu css end
@@ -1088,17 +1088,21 @@ nav ul li a:hover::after {
 ===================================*/
 .btop{
     position: fixed;
-    bottom: 30px;
-    right: 30px;
+    bottom: 40px;
+    right: 40px;
     background: #e23e38;
-    width: 30px;
-    height: 30px;
-    line-height: 25px;
+    width: 40px;
+    height: 40px;
+    line-height: 35px;
     text-align: center;
     display: inline-block;
     border-radius: 5px;
     z-index: 9999;
-    color: #fff;
+    color: #fff !important;
+    transition: .5s;
+}
+.btop:hover{
+    border-radius: 50%;
 }
 
 #footer-part{
