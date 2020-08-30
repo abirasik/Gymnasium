@@ -24,7 +24,7 @@ p {
     margin: 0;
     padding: 0;
 }
-html,body{
+body{
     overflow-x: hidden;
 }
 .titel h3 {

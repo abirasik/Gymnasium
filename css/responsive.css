@@ -30,6 +30,7 @@
     .sticky {
     background: rgba(226, 62, 56, .7);
     padding: 8px 0;
+        padding-right: 15px;
     }
 
     /* navbar end*/
@@ -315,6 +316,7 @@
     .sticky {
     background: rgba(226, 62, 56, .7);
     padding: 8px 0;
+        padding-right: 15px;
     }
     /* navbar end*/
 
@@ -638,6 +640,7 @@
      .sticky {
     background: rgba(226, 62, 56, .7);
     padding: 8px 0;
+    padding-right: 15px;     
     }
     /* navbar end*/
 
